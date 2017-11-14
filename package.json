@@ -1,0 +1,11 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "This project is for learning and implementing the node js basic concepts to host html files and apis on web",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshay Ayyanchira",
+  "license": "ISC"
+}
