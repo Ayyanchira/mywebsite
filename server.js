@@ -11,15 +11,28 @@ console.log('Addition of '+a+' and '+b+' is '+c);
 var http = require('http');
 
 http.createServer(function(req,res){
-    console.log('requested url is '+req.url);
+
 res.writeHead(200,{
-    'contenttype' : 'plain:json'
+    'Content-Type' : 'Text/HTML'
 })
 
+if (req.url == "/home"){
     res.end(JSON.stringify({
-        name : 'Akshay',
-        age : 25
+        name : "Akshay"
     }));
+}else if (req.url == "/about"){
+    res.end(JSON.stringify({
+        age : 25,
+        education : "Masters in University of North Carolina at Charlotte",
+        Interests : "Mobile App Development, Mixed Reality, Web development"
+    }))
+}else{
+    res.end(JSON.stringify({
+        message : "This is generic error message. Links are not ready yet..."
+    }))
+}
+
+
 }).listen(3000)
 
 console.log('Server listening to port 3000');
