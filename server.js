@@ -12,4 +12,10 @@ var http = require('http');
 
 http.createServer(function(req,res){
     console.log('You just created a server which listens to port 3000');
+    res.end({
+        name :'Akshay',
+        age : 23
+    })
 }).listen(3000)
+
+console.log('Server listening to port 3000');
