@@ -12,6 +12,10 @@ var http = require('http');
 
 http.createServer(function(req,res){
     console.log('requested url is '+req.url);
+res.writeHead(200,{
+    'contenttype' : 'plain:json'
+})
+
     res.end(JSON.stringify({
         name : 'Akshay',
         age : 25
