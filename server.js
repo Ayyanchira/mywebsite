@@ -6,7 +6,7 @@ var app = express();
 
 app.get('/about',function (req, res){
     console.log('REached in get function');
-    res.sendFile('/HTML/about.html');
+    res.sendFile(__dirname+'/HTML/about.html');
 })
 
 app.listen(4000,function(){
