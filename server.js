@@ -4,40 +4,38 @@ var express = require('express');
 
 var app = express();
 
-app.get('/home',function (req, res){
+app.get('/about',function (req, res){
     console.log('REached in get function');
-    res.send({
-        name : "Dhiraj"
-    })
+    res.sendFile('/HTML/about.html');
 })
 
 app.listen(4000,function(){
     console.log('Server started using app.js');
 })
 
-http.createServer(function(req,res){
+// http.createServer(function(req,res){
 
-res.writeHead(200,{
-    'Content-Type' : 'Text/HTML'
-})
+// res.writeHead(200,{
+//     'Content-Type' : 'Text/HTML'
+// })
 
-if (req.url == "/home"){
-    res.end(JSON.stringify({
-        name : "Akshay"
-    }));
-}else if (req.url == "/about"){
-    res.end(JSON.stringify({
-        age : 25,
-        education : "Masters in University of North Carolina at Charlotte",
-        Interests : "Mobile App Development, Mixed Reality, Web development"
-    }))
-}else{
-    res.end(JSON.stringify({
-        message : "This is generic error message. Links are not ready yet..."
-    }))
-}
+// if (req.url == "/home"){
+//     res.end(JSON.stringify({
+//         name : "Akshay"
+//     }));
+// }else if (req.url == "/about"){
+//     res.end(JSON.stringify({
+//         age : 25,
+//         education : "Masters in University of North Carolina at Charlotte",
+//         Interests : "Mobile App Development, Mixed Reality, Web development"
+//     }))
+// }else{
+//     res.end(JSON.stringify({
+//         message : "This is generic error message. Links are not ready yet..."
+//     }))
+// }
 
 
-}).listen(3000)
+// }).listen(3000)
 
-console.log('Server listening to port 3000');
+// console.log('Server listening to port 3000');
