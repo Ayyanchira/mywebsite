@@ -1,14 +1,19 @@
-console.log('Yes! I am getting called. Dont worry');
-
-a = 5;
-b = 10;
-c = a*b;
-
-console.log('Addition of '+a+' and '+b+' is '+c);
-
-// Now to create a server you need http package. So create a variable which is http handle
-
 var http = require('http');
+// using express to implement proper routing i.e the professional way of routing apis
+var express = require('express');
+
+var app = express();
+
+app.get('/home',function (req, res){
+    console.log('REached in get function');
+    res.send({
+        name : "Dhiraj"
+    })
+})
+
+app.listen(4000,function(){
+    console.log('Server started using app.js');
+})
 
 http.createServer(function(req,res){
 
