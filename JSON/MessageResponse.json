@@ -1,0 +1,39 @@
+{
+    "messages": [
+      {
+        "messageid": "2",
+        "type": "information",
+        "message": "Good morning!",
+        "answertype": "information",
+        "surveyID": {},
+        "answerOption": []
+      },
+      {
+        "messageid": "1",
+        "type": "question",
+        "message": "Are you feeling good today",
+        "answertype": "boolean",
+        "surveyID": {},
+        "answerOption": [
+          "YES",
+          "NO"
+        ]
+      },
+      {
+        "messageid": "2",
+        "type": "information",
+        "surveyID": {},
+        "message": "All you need is love. But a little chocolate now and then doesn't hurt.",
+        "answertype": {},
+        "answerOption": []
+      },
+      {
+        "messageid": "2",
+        "type": "survey",
+        "surveyID": "256",
+        "message": "",
+        "answertype": "",
+        "answerOption": []
+      }
+    ]
+  }

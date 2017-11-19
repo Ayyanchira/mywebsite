@@ -9,6 +9,11 @@ app.get('/about',function (req, res){
     res.sendFile(__dirname+'/HTML/about.html');
 })
 
+app.get('/getMessagesForPatient',function (req, res){
+    console.log('Reached get message function');
+    res.sendFile(__dirname+'/JSON/MessageResponse.json');
+})
+
 app.listen(4000,function(){
     console.log('Server started using app.js');
 })
