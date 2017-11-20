@@ -1,7 +1,7 @@
 {
     "messages": [
       {
-        "messageid": "2",
+        "messageid":1,
         "type": "information",
         "message": "Good morning!",
         "answertype": "information",
@@ -9,7 +9,7 @@
         "answerOption": null
       },
       {
-        "messageid": "1",
+        "messageid":2,
         "type": "question",
         "message": "Are you feeling good today",
         "answertype": "boolean",
@@ -20,7 +20,7 @@
         ]
       },
       {
-        "messageid": "2",
+        "messageid":3,
         "type": "information",
         "surveyID": null,
         "message": "All you need is love. But a little chocolate now and then doesn't hurt.",
@@ -28,7 +28,7 @@
         "answerOption": null
       },
       {
-        "messageid": "2",
+        "messageid": 4,
         "type": "survey",
         "surveyID": "256",
         "message": "Please take this survey to help us understand you better",
