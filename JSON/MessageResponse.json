@@ -1,30 +1,39 @@
 {
     "messages": [
       {
-        "messageid": 1,
+        "messageid": "2",
         "type": "information",
-        "message": "Good morning!"
+        "message": "Good morning!",
+        "answertype": "information",
+        "surveyID": null,
+        "answerOption": null
       },
       {
-        "messageid": 2,
+        "messageid": "1",
         "type": "question",
         "message": "Are you feeling good today",
         "answertype": "boolean",
+        "surveyID": null,
         "answerOption": [
           "YES",
           "NO"
         ]
       },
       {
-        "messageid": 3,
+        "messageid": "2",
         "type": "information",
-        "message": "All you need is love. But a little chocolate now and then doesn't hurt."
+        "surveyID": null,
+        "message": "All you need is love. But a little chocolate now and then doesn't hurt.",
+        "answertype": null,
+        "answerOption": null
       },
       {
-        "messageid": 4,
+        "messageid": "2",
         "type": "survey",
         "surveyID": "256",
-        "message": "Please take this survey to help us understand you better..."
+        "message": "Please take this survey to help us understand you better",
+        "answertype": null,
+        "answerOption": null
       }
     ]
   }
