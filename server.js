@@ -1,5 +1,5 @@
 // import { dirname } from 'path';
-var dirname = require('path-__dirname')
+var dirname = require('path-__dirname');
 
 var http = require('http');
 // using express to implement proper routing i.e the professional way of routing apis
