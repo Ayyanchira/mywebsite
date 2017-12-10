@@ -1,3 +1,5 @@
+import { dirname } from 'path';
+
 var http = require('http');
 // using express to implement proper routing i.e the professional way of routing apis
 var express = require('express');
@@ -13,6 +15,12 @@ app.get('/getMessagesForPatient',function (req, res){
     console.log('Reached get message function');
     res.sendFile(__dirname+'/JSON/MessageResponse.json');
 })
+
+app,get('/getSurveyQuestion',function(req,res){
+    console.log('Survey question requested');
+    res.sendFile(dirname + 'JSON/surveyQuestion.json');
+})
+
 
 app.listen(4000,function(){
     console.log('Server started using app.js');
