@@ -18,7 +18,7 @@ app.get('/getMessagesForPatient',function (req, res){
 
 app,get('/getSurveyQuestion',function(req,res){
     console.log('Survey question requested');
-    res.sendFile(__dirname + 'JSON/surveyQuestion.json');
+    res.sendFile(__dirname+'/JSON/surveyQuestion.json');
 })
 
 
