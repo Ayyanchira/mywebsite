@@ -6,6 +6,6 @@
         "YES",
         "NO"
       ],
-      "newParameter":"Nothing special in it"
-      
+      "newParameter":"Nothing special in it",
+      "boolanswer" : true
 }
