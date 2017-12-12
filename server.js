@@ -22,6 +22,14 @@ app.get('/getSurveyQuestion',function(req, res){
     res.sendFile(__dirname+'/JSON/surveyQuestionResponsewithoutSlashn.json');
 })
 
+app.get('/sampleJSONResponse',function(req, res){
+    console.log('Sample Json Requested');
+    res.end(JSON.stringify({
+        age : 25,
+        name : "Mathew Webber",
+        interest : "Computer Science"
+    }))
+})
 
 app.listen(4000,function(){
     console.log('Server started using app.js');
