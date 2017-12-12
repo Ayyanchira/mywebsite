@@ -1,5 +1,9 @@
 {
     "age" : 25,
     "name" : "Mathew Webber",
-    "interest" : "Computer Science"
+    "interest" : "Computer Science",
+    "answerOption" : [
+        "YES",
+        "NO"
+      ]
 }
