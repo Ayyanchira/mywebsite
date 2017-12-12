@@ -22,6 +22,11 @@ app.get('/getSurveyQuestion',function(req, res){
     res.sendFile(__dirname+'/JSON/surveyQuestionResponsewithoutSlashn.json');
 })
 
+app.get('/sampleJSONResponseFile',function(req, res){
+    console.log('Survey question requested');
+    res.sendFile(__dirname+'/JSON/SampleJSONResponse.json');
+})
+
 app.get('/sampleJSONResponse',function(req, res){
     console.log('Sample Json Requested');
     res.end(JSON.stringify({
