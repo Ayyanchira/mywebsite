@@ -39,7 +39,7 @@
         "title": "Weight Program",
         "message": "Next we will have some questions on weight",
         "answerFormat": "",
-        "answerOptions": "",
+        "answerOptions": [],
         "rulesApplicable": false,
         "rules": []
       },
