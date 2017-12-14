@@ -27,6 +27,11 @@ app.get('/sampleJSONResponseFile',function(req, res){
     res.sendFile(__dirname+'/JSON/SampleJSONResponse.json');
 })
 
+app.get('/enrolledStudy',function(req, res){
+    console.log('Studies requested');
+    res.sendFile(__dirname+'/JSON/EnrolledStudy.json');
+})
+
 app.get('/sampleJSONResponse',function(req, res){
     console.log('Sample Json Requested');
     res.end(JSON.stringify({

@@ -1,0 +1,22 @@
+[
+    {
+      "studyID" : 1,
+      "name": "Alcohol Prevention",
+      "description" : "Study to understand your behaviour pattern for alcohol consumption"
+    },
+    {
+      "studyID" : 2,
+      "name": "Smoke Prevention",
+      "description" : "No more tobacco intake..."
+    },
+    {
+      "studyID" : 3,
+      "name": "Weight loose",
+      "description" : "Study to keep you fit"
+    },
+    {
+      "studyID" : 4,
+      "name": "Mobile Addiction",
+      "description" : "Study to increase your focus"
+    }
+  ]
